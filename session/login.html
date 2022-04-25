@@ -1,0 +1,23 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Corpmail - Login</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+<body>
+<div class="login">	<div id="login_head">Corp Mail</div>
+<div id="login_body">
+<form name="login" action="" method="POST" >
+<p>User ID <br />
+<input type="text" name="username" id="login_username" /></p>
+<p>Password <br />
+<input type="password" name="password" id="login_password" /></p>
+<input type="submit" value="Login" id="login_submit" name="login" />
+<p id="login_error" ><?php if(isset($login_error)){echo $login_error;} ?> </p>
+</form>
+</div>
+
+</div>
+</body>
+</html>

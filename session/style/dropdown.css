@@ -1,0 +1,33 @@
+.dropdown {
+	background: url("../gfx/calendar.gif") no-repeat 2px 2px rgb(218, 217, 212); padding: 0.2em; border-radius: 0px 2em 0px 0px; border: 1px solid rgb(202, 201, 194); width: 21em; cursor: default; opacity: 0.9; -moz-border-radius: 0 2em 0 0; -khtml-border-radius: 0 2em 0 0; -moz-opacity: 0.9;
+}
+.dropdown .month {
+	width: 37%; margin-left: 48px;
+}
+.dropdown .year {
+	width: 25%; margin-left: 1em;
+}
+.dropdown .close {
+	background: url("../gfx/close.png") no-repeat 50% 50%; border: currentColor; top: 0.5em; width: 16px; height: 16px; right: 1em; text-indent: -9999px; overflow: hidden; display: block; position: absolute;
+}
+.dropdown table {
+	width: 100%; margin-top: 0.5em; table-layout: fixed; border-spacing: 0; empty-cells: show;
+}
+.dropdown thead th {
+	width: 14%;
+}
+.dropdown tbody td {
+	background: rgb(255, 255, 255); border: 1px solid rgb(218, 217, 212); text-align: center; line-height: 2;
+}
+.dropdown tbody td.hover {
+	background: rgb(116, 128, 152); color: rgb(255, 255, 255); cursor: pointer;
+}
+.dropdown .weekend {
+	color: rgb(255, 0, 0);
+}
+.dropdown .today {
+	border: 1px solid rgb(255, 0, 0);
+}
+.dropdown .selected {
+	background: rgb(116, 128, 152); color: rgb(255, 255, 255);
+}

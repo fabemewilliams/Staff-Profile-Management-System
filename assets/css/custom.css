@@ -1,0 +1,8 @@
+/* Write your custom CSS here */
+
+.compose-message{
+	border: 1px solid silver !important;
+}
+.compose-message{
+	border-bottom: 0px solid silver !important;
+}
